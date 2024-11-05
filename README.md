@@ -35,15 +35,22 @@ Our approach involved the following steps:
 2. **CNN Architecture Testing**: Evaluated multiple configurations (SimpleCNN, VGG16, VGG19, and a Hybrid CNN-Transformer) for optimal performance.
 3. **Performance Optimization**: Implemented early stopping and model checkpointing for efficient training, preventing overfitting.
 
+### System Architecture & Data Flow
+
+![System Architecture](./Graphs/systemArch.png)
+
+This diagram presents the end-to-end flow from input data and preprocessing to model selection and result visualization. It showcases the modular approach to testing each model variant (Simple CNN, VGG16, VGG19, and Hybrid CNN-Transformer) and visualizing their performance.
+
 
 # 🔬 Evaluation & Testing
 
 We utilized the **State Farm Distracted Driver Detection** dataset and evaluated our models using **accuracy** and **training loss** metrics. Comparative analysis with existing approaches showcased significant advancements in balancing accuracy with processing speed.
 
-## Comparative Analysis
-
-### Accuracy & Elapsed Time Comparison
-
+## Model Accuracy and Elapsed Time Comparison
+<div align="center">
+![Accuracy vs Elapsed Time](./Graphs/FinalVid1.png)
+</div>
+### Detailed Model Comparison
 <div align="center">
 
 | **Model**              | **Accuracy** | **Elapsed Time (s)** |
@@ -59,7 +66,14 @@ We utilized the **State Farm Distracted Driver Detection** dataset and evaluated
 
 </div>
 
-This table highlights the **trade-off between accuracy and computational efficiency**, with fine-tuned models performing best in accuracy, making them ideal for real-time applications.
+This table and the visual above highlight the **trade-off between accuracy and computational efficiency**, with fine-tuned models performing best in accuracy, making them ideal for real-time applications.
+
+### Comparative Evaluation of Accuracy and Time
+
+![Model Comparison](./Graphs/FinalVid2.png)
+
+This comparison chart provides a visual breakdown of each model's accuracy and elapsed time, demonstrating the optimal performance of fine-tuned models for real-time distraction detection.
+
 
 # 💡 Key Findings
 
@@ -84,7 +98,7 @@ Plans for future work include:
 To reference this project, use the following BibTeX entry:
 
 ```latex
-@article{khan2024driversafety,
+@article{sheikh2024driversafety,
   title={Enhancing Road Safety: Real-Time Detection of Driver Distraction through CNNs},
   author={ Sheikh, Amaan Aijaz and Khan, Imaad Zaffar},
   journal={arXiv preprint arXiv:2405.17788v1 },
