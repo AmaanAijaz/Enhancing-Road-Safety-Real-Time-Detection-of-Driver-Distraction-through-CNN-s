@@ -1,8 +1,11 @@
 <div align="center">
 <h2>Enhancing Road Safety: Real-Time Detection of Driver Distraction through CNNs 🚗💡</h2>
- [**Amaan Aijaz Sheikh**](https://github.com/asheikh4) · [**Imaad Zaffar Khan**](https://github.com/izkhan2)
 
-<sup>University of Illinois at Urbana-Champaign</sup>
+[**Amaan Aijaz Sheikh**](https://github.com/AmaanAijaz)<sup>1</sup> · [**Imaad Zaffar Khan**](https://github.com/imaad786)<sup>1</sup>
+
+<sup>1</sup>University of Illinois at Urbana-Champaign
+
+
 
 <a href="https://arxiv.org/abs/2405.17788"><img src='https://img.shields.io/badge/arXiv-DriverDistraction-red' alt='Paper PDF'></a>
 
