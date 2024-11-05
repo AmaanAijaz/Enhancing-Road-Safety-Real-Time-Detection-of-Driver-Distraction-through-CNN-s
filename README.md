@@ -41,6 +41,8 @@ We utilized the **State Farm Distracted Driver Detection** dataset and evaluated
 
 ### Accuracy & Elapsed Time Comparison
 
+<div align="center">
+
 | **Model**              | **Accuracy** | **Elapsed Time (s)** |
 |------------------------|--------------|-----------------------|
 | Simple CNN             | 0.89        | 10.56                |
@@ -51,6 +53,8 @@ We utilized the **State Farm Distracted Driver Detection** dataset and evaluated
 | VGG19 Shallow          | 0.94        | 9.68                 |
 | VGG19 Fine-Tuned       | 0.98        | 8.89                 |
 | Hybrid CNN-Transformer | 0.98        | 11.05                |
+
+</div>
 
 This table highlights the **trade-off between accuracy and computational efficiency**, with fine-tuned models performing best in accuracy, making them ideal for real-time applications.
 
