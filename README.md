@@ -7,7 +7,7 @@
 
 
 
-<a href="https://arxiv.org/abs/2405.17788"><img src='https://img.shields.io/badge/arXiv-DriverDistraction-red' alt='Paper PDF'></a>
+<a href="https://arxiv.org/abs/2405.17788"><img src='https://img.shields.io/badge/arXiv-Enhancing Road Safety-red' alt='Paper PDF'></a>
 
 </div>
 
