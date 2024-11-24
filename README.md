@@ -82,7 +82,7 @@ This comparison chart provides a visual breakdown of each model's accuracy and e
 
 ## 📈 Results & Comparisons
 
-The models were benchmarked against standard CNN architectures, demonstrating the enhanced performance of fine-tuned and hybrid approaches, especially in terms of **precision** and **computational speed** for driver distraction detection.
+The models were benchmarked against existing standard CNN architectures, demonstrating the enhanced performance of fine-tuned and hybrid approaches, especially in terms of **precision** and **computational speed** for driver distraction detection.
 
 ## 🌍 Future Directions
 
